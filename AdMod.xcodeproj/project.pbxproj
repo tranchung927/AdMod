@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C72A28B140525FA87E2BEB8 /* Pods_AdMod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE4227581A02917641547CF /* Pods_AdMod.framework */; };
 		3B03CC681F94A4AA002C7C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03CC671F94A4AA002C7C6C /* AppDelegate.swift */; };
 		3B03CC6A1F94A4AA002C7C6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03CC691F94A4AA002C7C6C /* ViewController.swift */; };
 		3B03CC6D1F94A4AA002C7C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B03CC6B1F94A4AA002C7C6C /* Main.storyboard */; };
 		3B03CC6F1F94A4AA002C7C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B03CC6E1F94A4AA002C7C6C /* Assets.xcassets */; };
 		3B03CC721F94A4AA002C7C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B03CC701F94A4AA002C7C6C /* LaunchScreen.storyboard */; };
+		3B3824841F95B2A4007654C5 /* GoogleAdsMob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3824831F95B2A4007654C5 /* GoogleAdsMob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1594A5D40773B37576F6D629 /* Pods-AdMod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMod.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdMod/Pods-AdMod.release.xcconfig"; sourceTree = "<group>"; };
 		3B03CC641F94A4AA002C7C6C /* AdMod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B03CC671F94A4AA002C7C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B03CC691F94A4AA002C7C6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		3B03CC6E1F94A4AA002C7C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B03CC711F94A4AA002C7C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B03CC731F94A4AA002C7C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3824831F95B2A4007654C5 /* GoogleAdsMob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAdsMob.swift; sourceTree = "<group>"; };
+		4D40D25BCD9AE68E9ED2B82E /* Pods-AdMod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdMod/Pods-AdMod.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE4227581A02917641547CF /* Pods_AdMod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C72A28B140525FA87E2BEB8 /* Pods_AdMod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B843974CC5AF87802C5CB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D40D25BCD9AE68E9ED2B82E /* Pods-AdMod.debug.xcconfig */,
+				1594A5D40773B37576F6D629 /* Pods-AdMod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29F0230F284C97425CB3C00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4227581A02917641547CF /* Pods_AdMod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3B03CC5B1F94A4AA002C7C6C = {
 			isa = PBXGroup;
 			children = (
 				3B03CC661F94A4AA002C7C6C /* AdMod */,
 				3B03CC651F94A4AA002C7C6C /* Products */,
+				16B843974CC5AF87802C5CB1 /* Pods */,
+				29F0230F284C97425CB3C00D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +83,7 @@
 				3B03CC671F94A4AA002C7C6C /* AppDelegate.swift */,
 				3B03CC691F94A4AA002C7C6C /* ViewController.swift */,
 				3B03CC6B1F94A4AA002C7C6C /* Main.storyboard */,
+				3B3824831F95B2A4007654C5 /* GoogleAdsMob.swift */,
 				3B03CC6E1F94A4AA002C7C6C /* Assets.xcassets */,
 				3B03CC701F94A4AA002C7C6C /* LaunchScreen.storyboard */,
 				3B03CC731F94A4AA002C7C6C /* Info.plist */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B03CC761F94A4AA002C7C6C /* Build configuration list for PBXNativeTarget "AdMod" */;
 			buildPhases = (
+				363D44BA22D6946B47D0480B /* [CP] Check Pods Manifest.lock */,
 				3B03CC601F94A4AA002C7C6C /* Sources */,
 				3B03CC611F94A4AA002C7C6C /* Frameworks */,
 				3B03CC621F94A4AA002C7C6C /* Resources */,
+				9E2B8E7909F3999F9B6A5AA3 /* [CP] Embed Pods Frameworks */,
+				A239672E0CF4324905376C65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +161,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		363D44BA22D6946B47D0480B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2B8E7909F3999F9B6A5AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMod/Pods-AdMod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A239672E0CF4324905376C65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdMod/Pods-AdMod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B03CC601F94A4AA002C7C6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3824841F95B2A4007654C5 /* GoogleAdsMob.swift in Sources */,
 				3B03CC6A1F94A4AA002C7C6C /* ViewController.swift in Sources */,
 				3B03CC681F94A4AA002C7C6C /* AppDelegate.swift in Sources */,
 			);
@@ -258,6 +337,7 @@
 		};
 		3B03CC771F94A4AA002C7C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D40D25BCD9AE68E9ED2B82E /* Pods-AdMod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdMod/Info.plist;
@@ -270,6 +350,7 @@
 		};
 		3B03CC781F94A4AA002C7C6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1594A5D40773B37576F6D629 /* Pods-AdMod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdMod/Info.plist;
@@ -299,6 +380,7 @@
 				3B03CC781F94A4AA002C7C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
